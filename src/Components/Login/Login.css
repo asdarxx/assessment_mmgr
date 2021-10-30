@@ -1,0 +1,48 @@
+form{
+    width: 25%;
+    margin: auto;
+    margin-top:50px;
+} 
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    /* justify-content: space-between; */
+}
+
+form input[type=text], [type=password]{
+    padding : 10px 5px;
+    border: 1px solid rgb(226, 221, 221);
+    border-radius: 5px;
+   
+}
+
+form input[type=submit],.btn{
+    margin-top: 20px;
+    width: 100%;
+    padding : 13px;
+    background-color: rgb(42, 189, 164);
+    border : none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 16px;
+    transition: all 0.3s ease 0s;
+}
+
+form input[type=submit]:hover{
+    cursor: pointer;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    form{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    form{
+        width: 100%;
+    }
+}

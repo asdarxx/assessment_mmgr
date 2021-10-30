@@ -1,0 +1,41 @@
+.logo{
+    width: 10%;
+}
+
+.logo img{
+    width: 100px;
+    height: 60px;
+}
+
+.nav ul{
+    display: flex;
+    flex-direction: row;
+   
+}
+.nav ul li{
+    list-style: none;
+    padding: 5px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color:rgba(134, 131, 131, 0.781)
+}
+
+
+.nav ul li a:hover{
+    color: black;
+}
+
+.selected{
+  color: black;
+  font-weight: bold;
+  }
+
+/* Extra small devices (phones, 768px and down) */
+/* @media only screen and (max-width: 768px){
+  .navbar{
+      margin-top: 10px;
+
+  }
+} */
